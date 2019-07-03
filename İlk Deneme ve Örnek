@@ -1,0 +1,7 @@
+İlk Deneme  ve örnek:
+
+**Renk verirken Hex kodu olarak ekleyebiliriz. bgcolor="#C7BBB8"
+**Resim olarak ekleyeceksek eğer background="resim.jpg" olarak ekleyebiliriz. Web sayfa dosyları ile konumu aynı ise geçerlidir.
+**Eklenecek olan resim farklı bir konumda ise background="resimler/resim.jpg" olmalıdır.Tam ve Detaylı konum olarak belirtmemiz gerekir.
+**Eklenecek olan resim eğerki bir klasör yukarda ise background="../resimler/resim.jpg" olarak kullanılır. birden fazla üst klasör atlamak için "../" bir kaç defa kullanılabilir.
+**Eklenecek olan resim internet üzerinden alınacak ise background="https://www.ornek.com.tr/resim.png" yapılabilir.
