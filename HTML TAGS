@@ -1,0 +1,8 @@
+Örnek kaynaklar w3schools.com'da bulunabilir.
+
+Etiketler ve Kullanımları
+
+Etiket kullanımlarında herhangi bir sıralama yoktur ancak sırasıyla HTML HEAD ve BODY olması önerilir.Arama Motoru optimizasyonunda öenmlidir.(SEO)
+
+<head>Bu etikette yazılanlar genel anlamda ekranda görünmeyecektir</head>
+<body>bu bölümde yazılanlar ekranda çıktı olarak görünür.</body>
