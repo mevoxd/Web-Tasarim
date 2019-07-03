@@ -2,7 +2,11 @@
 
 Etiketler ve Kullanımları
 
+Bütün etiketler: https://www.w3schools.com/tags/
+
 Etiket kullanımlarında herhangi bir sıralama yoktur ancak sırasıyla HTML HEAD ve BODY olması önerilir.Arama Motoru optimizasyonunda öenmlidir.(SEO)
 
 <head>Bu etikette yazılanlar genel anlamda ekranda görünmeyecektir</head>
 <body>bu bölümde yazılanlar ekranda çıktı olarak görünür.</body>
+
+
