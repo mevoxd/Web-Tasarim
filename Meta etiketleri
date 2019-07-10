@@ -1,0 +1,11 @@
+Meta etiketi <meta></meta> sayfa açıklamaları yazarı dil ve karakter setleri gibi özellikleri belirttiğimiz alanlardır.
+<Meta name="description" content="bedava website" açıklama kısmı/>
+<Meta name="keywords" content="html,vb,photoshop"/>
+script eklemek için <script type="text/vbscript">
+noscript tagı tarayıcı desteklemediği zaman kullanıcılara aktarılan mesajı içerir.
+CSS eklemek için link etiketi kullanılır harici bir css dosyası içeri çekmek için kullanılacak kod. 
+
+<head>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+</head
+
