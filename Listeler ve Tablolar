@@ -1,0 +1,40 @@
+HTML listeleri sıralı,sırasız veya tanımlı olabilir.
+
+Liste Etiketi iki tanedir <UL> ve <li>
+örnek:
+<ul> 
+  <li>çay</li>
+  <li>kahve</li>
+  <li>şeker</li>
+</ul>
+<ol> liste elemanı numaralandırarak çıktı verir.
+
+
+<table> 
+
+<tr>satırları <td>sütunlara bölünür. colspan sütunları birleştirir. <th>başlık satırı
+örnek:
+<table border="3" width="500px" height="500px">
+				<tr>
+					<th colspan="2">Site Design Başlık</th>
+				</tr>
+				<tr>
+					<td colspan="2" valign="top" align="center">
+						<h1>logo</h1>
+					</td>
+				</tr>
+				<tr>
+					<td align="left" valign="top">
+						<h1>content area</h1>
+					</td>
+					<td align="right" valign="top">
+						<h1>menu</h1>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" valign="bottom" align="center">
+						<h1>footer</h1>
+					</td>
+				</tr> 
+			</table>
+
