@@ -1,0 +1,10 @@
+HTML listeleri sıralı,sırasız veya tanımlı olabilir.
+
+Liste Etiketi iki tanedir <UL> ve <li>
+örnek:
+<ul> 
+  <li>çay</li>
+  <li>kahve</li>
+  <li>şeker</li>
+</ul>
+<ol> liste elemanı numaralandırarak çıktı verir.
