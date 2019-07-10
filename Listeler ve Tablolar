@@ -41,9 +41,7 @@ cellpading tablo hücreleri içinde yer alan yazı, resim türü içeriğimizin 
 			</table>
 			
 örnek 2:
-<body>
-
-	<table border="1" cellspacing="2" width="100%" height="70%">
+		<table border="3" cellspacing="2" width="70%" height="70%">
 	
 		<tr>
 			<td colspan="4" align="center" ><h1>Header<h1></td>
@@ -81,4 +79,14 @@ cellpading tablo hücreleri içinde yer alan yazı, resim türü içeriğimizin 
 		</tr>
 	
 	</table>
-	<center><h1>Tablo 2-5:<h1><center>
+	<table border="0" cellspacing="0" width="70%">
+		<tr>
+			<th align="center">
+				<h3>Tablo 2-5:</h3>
+			</th>
+		</tr>
+		<tr>
+			<td align="center"><p>Bir web sayfası düzeni yapısı oluşturmak için colspan ve rowspan kullanımının gösterilmesi.<br>
+		Normalde, border = 0 olur; border burada yalnızca tanıtım amacıyla görünür hale getirilmiştir.</td>
+		</tr>
+	</table>
