@@ -8,3 +8,29 @@ Liste Etiketi iki tanedir <UL> ve <li>
   <li>şeker</li>
 </ul>
 <ol> liste elemanı numaralandırarak çıktı verir.
+
+
+<table> 
+
+<tr>satırları <td>sütunlara bölünür. colspan sütunları birleştirir.
+örnek:
+<table border="3" width="500px" height="500px">
+				<tr>
+					<td colspan=2 valign="top" align="center">
+						logo
+					</td>
+				</tr>
+				<tr>
+					<td align="left">
+						content area
+					</td>
+					<td align="right">
+						menu
+					</td>
+				</tr>
+				<tr>
+					<td colspan=2 valign="bottom" align="center">
+						footer
+					</td>
+				</tr> 
+			</table>
