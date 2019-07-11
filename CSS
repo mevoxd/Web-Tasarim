@@ -1,0 +1,25 @@
+Css kodlarını harici bir dosyada tutarsanız tek bir yerden tüm sitede değişiklik yapabilirsiniz.
+İstediğiniz alanlarda geçişler gibi görsel efektler yaratabilirsiniz.
+Nesnelerin konumlarını tek bir yerden değiştirebilirsiniz.
+Tablet, telefon, masaüstü için farklı ebatlarda tasarımlar yapabilirsiniz.
+Boyutlandırma oldukça kolaydır.
+
+aynı index sayfası içinde kullanımı aşağıdaki gibidir.
+örnek:
+<style type="text/css">
+		a{
+ 
+			color:#99CC66;
+			font-weight:normal;
+ 
+		}
+
+		a:hover{
+ 
+			color:#006600;
+			font-weight:bold;
+ 
+			background-color:#99CC66;}
+			
+		
+	</style>
