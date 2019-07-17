@@ -1,0 +1,155 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>div css</title>
+<link href="stil.css" rel="stylesheet">
+</head>
+ 
+<body>
+<div id="sayfa">
+        <div id="ust">
+			
+			<div class="logo">LOGO</div>
+			<div class="ust-header"><h1>HEADER</h1></div>
+			
+        </div>
+        <div id="menu">
+			<ul id="ust-menu">
+				<li><a href="#">Anasayfa</a></li>
+				<li><a href="#">Hakkımda</a></li>
+				<li><a href="#">Çalışmalarım</a></li>
+					
+				<li><a href="#" >Yazılar</a></li>
+				<li><a href="#">İletişim</a></li>   
+			</ul>
+        </div>
+        <div id="icerik">
+		
+            <div id="sol"> YAN MENÜ
+			
+            </div>
+			
+            <div id="orta"> İÇERİK
+			
+            </div>
+			
+            <div id="sag">
+			
+                <div class="kutu">	MODÜL 1
+				
+                </div>
+				
+                <div class="kutu"> MODÜL 2
+				
+                </div>
+				
+                <div class="kutu"> MODÜL 3
+				
+                </div>
+				
+            </div>
+			
+            <div style="clear: both">
+			
+            </div>
+			
+        </div>
+		
+        <div id="alt">
+			FOOTER
+        </div>
+		
+    </div>
+</body>
+</html>
+
+
+CSS KODLARI ;
+
+body
+{
+    margin:0 auto;
+}
+#sayfa
+{
+    width:1000px;
+	margin:0 auto;
+}
+#ust
+{
+    height:120px;
+    background:#ce0000;
+}
+.logo
+{
+	float:left;
+    width:15%;
+    height:100%;
+    background:#ddaa00;
+    
+}
+#ust-header
+{
+	
+	float:left;
+    height:120px;
+	width:85%;
+    background:#001139;
+}
+
+#menu
+{
+    height:50px;
+    background:#0081f9;   
+}
+#ust-menu{
+    float: left;
+    list-style: none;
+    margin-top: 1em;
+}
+ 
+#ust-menu li{
+    float: left;
+	display:inline-block;
+    
+}
+ 
+#ust-menu li a{
+    color: white;
+    text-decoration: none;
+    margin: 10;
+    padding: 5px 15px;
+}
+ 
+#ust-menu a:hover{
+    background: #444;
+    border-radius: 15px;
+}
+
+#sol,#sag
+{
+    float:left; 
+    width:200;
+    height:600px;
+    background:#0b9e8e;
+}
+#orta
+{
+    float:left;
+    width:600px;
+    height:600px;
+    background:#7c84c0;   
+}
+.kutu
+{
+    width:180px;
+    height:180px;
+    background:#ddaa00;
+    margin:10px;
+}
+#alt
+{
+    height:60px;
+    background:#672a65;   
+}
+
